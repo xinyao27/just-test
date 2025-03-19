@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  // title: "Xiaomi Global Official Website - Mi Global Home",
-  // description:
-  //   "Xiaomi smartphones, laptops, TVs, appliances, and smart home products",
+  title: "Xiaomi Global Official Website - Mi Global Home",
+  description:
+    "Xiaomi smartphones, laptops, TVs, appliances, and smart home products",
   icons: {
     icon: "/favicon.ico",
   },
