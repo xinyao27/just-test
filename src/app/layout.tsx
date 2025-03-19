@@ -9,8 +9,6 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Xiaomi Global Official Website - Mi Global Home",
-  description: "Xiaomi smartphones, laptops, TVs, appliances, and smart home products",
   icons: {
     icon: "/favicon.ico",
   },
@@ -23,9 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable}`}>
-      <ClientBody>
-        {children}
-      </ClientBody>
+      <ClientBody>{children}</ClientBody>
     </html>
   );
 }
